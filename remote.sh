@@ -11,4 +11,4 @@ git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
 echo -e "execute pathogen#infect()\nset number" > ~/.vimrc
 
-rm -rf ../vim-remote
+rm -rf vim-remote
