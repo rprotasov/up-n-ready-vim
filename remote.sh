@@ -9,12 +9,6 @@ git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
 
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
-os=${uname}
-
-if [ $os == "Darwin" ]; then
-  echo "execute pathogen#infect()\nset number" > ~/.vimrc
-else
-  echo -e "execute pathogen#infect()\nset number" > ~/.vimrc
-fi
+cp .vimrc ~/.vimrc
 
 rm -rf vim-remote
