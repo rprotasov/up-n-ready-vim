@@ -9,6 +9,6 @@ git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
 
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
-cp .vimrc ~/.vimrc
+cp vim-remote/.vimrc ~/.vimrc
 
 rm -rf vim-remote
