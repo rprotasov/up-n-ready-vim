@@ -9,6 +9,6 @@ git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
 
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
-echo "execute pathogen#infect()\nset number" > ~/.vimrc
+echo -e "execute pathogen#infect()\nset number" > ~/.vimrc
 
 rm -rf ../vim-remote
