@@ -5,7 +5,7 @@ mv vim-remote ~
 rm -rf ~/.vim*
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle
-git clone https://github.com/tpope/vim-pathogen.git ~
+git clone https://github.com/tpope/vim-pathogen.git ~/
 mv ~/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
 rm -rf ~/vim-pathogen
 
