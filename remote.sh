@@ -1,6 +1,7 @@
 #!/bin/sh
 
-mv vim-remote ~
+vim_remote="$(dirname "$0")"
+mv "$vim_remote" ~/
 
 rm -rf ~/.vim*
 
