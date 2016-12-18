@@ -18,6 +18,8 @@ git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 
 git clone git://github.com/tpope/vim-commentary.git ~/.vim/bundle/vim-commentary
 
+git clone https://github.com/MaxSt/FlatColor ~/.vim/bundle/FlatColor
+
 cp ~/vim-remote/.vimrc ~/.vimrc
 
 rm -rf ~/vim-remote
