@@ -20,6 +20,8 @@ git clone git://github.com/tpope/vim-commentary.git ~/.vim/bundle/vim-commentary
 
 git clone https://github.com/joshdick/onedark.vim.git ~/.vim/bundle/onedark
 
+git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
+
 cp ~/vim-remote/.vimrc ~/.vimrc
 
 rm -rf ~/vim-remote
