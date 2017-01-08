@@ -6,7 +6,7 @@ endif
 
 call plug#begin('~/.vim/bundle')
 Plug 'tpope/vim-sensible'
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'scrooloose/nerdtree' 
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'joshdick/onedark.vim', { 'dir': '~/.onedark', 'do':  'mkdir -p ~/.vim/colors && mv ~/.onedark/colors/* ~/.vim/colors && rm -rf ~/.onedark' } 
