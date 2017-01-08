@@ -22,6 +22,8 @@ git clone https://github.com/joshdick/onedark.vim.git ~/.vim/bundle/onedark
 
 git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
 
+git clone https://github.com/junegunn/fzf.git ~/.vim/bundle/fzf
+
 cp ~/vim-remote/.vimrc ~/.vimrc
 
 rm -rf ~/vim-remote
