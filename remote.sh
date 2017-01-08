@@ -5,24 +5,8 @@ mv "$vim_remote" ~/
 
 rm -rf ~/.vim*
 
-mkdir -p ~/.vim/autoload ~/.vim/bundle
-git clone https://github.com/tpope/vim-pathogen.git ~/vim-pathogen
-mv ~/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/
-rm -rf ~/vim-pathogen
-
-git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
-
-git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
-
-git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
-
-git clone git://github.com/tpope/vim-commentary.git ~/.vim/bundle/vim-commentary
-
-git clone https://github.com/joshdick/onedark.vim.git ~/.vim/bundle/onedark
-
-git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
-
-git clone https://github.com/junegunn/fzf.git ~/.vim/bundle/fzf
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 cp ~/vim-remote/.vimrc ~/.vimrc
 
