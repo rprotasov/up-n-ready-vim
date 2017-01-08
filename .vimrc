@@ -12,6 +12,7 @@ Plug 'tpope/vim-commentary'
 Plug 'joshdick/onedark.vim', { 'dir': '~/.onedark', 'do':  'mkdir -p ~/.vim/colors && mv ~/.onedark/colors/* ~/.vim/colors' } 
 Plug 'leafgarland/typescript-vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 set number
