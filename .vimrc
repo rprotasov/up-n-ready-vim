@@ -9,7 +9,7 @@ Plug 'tpope/vim-sensible'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
-Plug 'joshdick/onedark.vim', {'rtp': 'colors', 'dir': 'colors' }
+Plug 'joshdick/onedark.vim', {'rtp': 'colors', 'dir': '~/.vim/colors' }
 Plug 'leafgarland/typescript-vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 call plug#end()
