@@ -3,7 +3,7 @@
 up="$(dirname "$0")"
 mv "$up" ~/
 
-if [ -z "$1" && "$1" = "spacevim" ]; then
+if [[ -z "$1" && "$1" = "spacevim" ]]; then
   curl -sLf https://spacevim.org/install.sh | bash
   rm -rf ~/up-n-ready-vim
   exit 0
