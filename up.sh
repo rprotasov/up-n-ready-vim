@@ -13,4 +13,7 @@ rm -rf ~/.vim*
 
 cp ~/up-n-ready-vim/.vimrc ~/.vimrc
 
+rm -fr ~/.lib
+cp -r ~/up-n-ready-vim/lib/ctags-5.8 ~/.lib
+
 rm -rf ~/up-n-ready-vim

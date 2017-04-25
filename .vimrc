@@ -14,6 +14,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'MattesGroeger/vim-bookmarks'
+Plug 'majutsushi/tagbar'
 call plug#end()
 
 set number
@@ -22,6 +23,10 @@ set tabstop=4
 set pastetoggle=<F2>
 map <C-n> :NERDTreeToggle<CR>
 map <C-h> :noh<CR>
+nmap <C-b> :TagbarToggle<CR>
+
+set g:tagbar_ctags_bin = "~/.lib/ctags-5.8""
+
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
 "If you're using tmux version 2.2 or later, you can remove the outermost $TMUX check and use tmux's 24-bit color support
 "(see < http://sunaku.github.io/tmux-24bit-color.html#usage > for more information.)
