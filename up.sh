@@ -14,6 +14,8 @@ rm -rf ~/.vim*
 cp ~/up-n-ready-vim/.vimrc ~/.vimrc
 
 rm -fr ~/.lib
-cp -r ~/up-n-ready-vim/lib/ctags-5.8 ~/.lib
+mv ~/up-n-ready-vim/lib ~/.lib
+
+cd ~/.lib/ctags-5.8 && ./configure && make
 
 rm -rf ~/up-n-ready-vim
