@@ -13,6 +13,11 @@ rm -rf ~/.vim*
 
 cp ~/up-n-ready-vim/.vimrc ~/.vimrc
 
+if [[ ! -z "$1" && "$1" = "no-ctags" ]]; then
+  rm -rf ~/up-n-ready-vim
+  exit 0
+fi
+
 rm -fr ~/.lib
 mv ~/up-n-ready-vim/lib ~/.lib
 
