@@ -15,6 +15,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'MattesGroeger/vim-bookmarks'
 Plug 'majutsushi/tagbar'
+Plug 'rakr/vim-two-firewatch'
 call plug#end()
 
 set number
@@ -43,7 +44,10 @@ if (empty($TMUX))
   endif
 endif
 syntax on
-colorscheme onedark
+set background=light
+let g:two_firewatch_italics=1
+colo two-firewatch
+let g:airline_theme='twofirewatch'
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
