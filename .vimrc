@@ -56,6 +56,8 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in
 inoremap jj <esc>
 filetype plugin on
 autocmd FileType typescript setlocal shiftwidth=2 tabstop=2
+set listchars=eol:¬,tab:\|-,trail:␣,extends:>,precedes:<¬
+
 
 function! NumberToggle()
   if(&relativenumber == 1)
